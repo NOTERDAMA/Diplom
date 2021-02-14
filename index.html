@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <title>MSA-IT</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+  </head>
+  <body>
+    <div class="loadingSpinner">   <!-- Предзагрузка страницы -->
+      <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="container"> 
+      
+      <div class="hamburger-menu">           <!-- Меню -->
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      
+      </div>
+
+
+      <header class="header">             <!-- Шапка страницы -->
+        <div class="img-wrapper">
+          <img src="images/MSAlg.jpg" alt="image_background"/>
+        </div>
+        <div class="type">
+          <h1>Реализуем сложные проекты под ключ</h1>
+          <p class="typed"></p>
+        </div>
+        <div class="banner">
+          <button>Регистрация</button>
+          <button class="bannerbtn2">Вход</button>
+        </div>
+        
+      </header>
+      
+    
+
+      <section class="sidebar">           <!-- Боковая панель -->
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Главная">Главная</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Виды работ">Виды работ</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Команда"> Команда</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Задать вопрос">Задать вопрос</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Контакты">Контакты</a>
+          </li>
+        </ul>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </section>
+    
+
+      
+                                       <!-- Выпадающий список информации -->
+      <section class="accordion-dropdown">     
+        <div class="dropdown-container">
+            <div class="accordion">
+                <div class="accordion-item" id="question1">
+                  <a class="accordion-link" href="#question1">
+                    Создание сайтов на SPA и non-SPA технологиях
+                    <ion-icon name="add-outline" class="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>Мы создаем сайты с применением самых современных технологий, чтобы сделать их пользование как можно более удобным. Наша компания специализируется на разработке фронт-энда на Vue.js (Nuxt.js), также работаем с React, Angular.</p>
+                  </div>
+                </div>
+                <div class="accordion-item" id="question2">
+                  <a class="accordion-link" href="#question2">
+                    Создание CRM-систем
+                    <ion-icon name="add-outline" class="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>Мы разрабатываем CRM-системы под ключ и без использования готовых коробочных решений. Наша команда выполняет полный цикл работ, начиная от бизнеса анализа, и заканчивая поддержкой отдела продаж на уже внедренной CRM-системе</p>
+                  </div>
+                </div>
+                <div class="accordion-item" id="question3">
+                  <a class="accordion-link" href="#question3">
+                    Аутсорсинг, IT-разработки
+                    <ion-icon name="add-outline" class="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>У вас есть задача, проект или идея, которая так и ждет своей реализации? Вам к нам! Мы поможем в создании проекта любой сложности, начиная от подмены контента, и заканчивая разработкой интернет- магазина. Мы также можем войти в состав вашей команды разработки на фулл/парт тайме.</p>
+                  </div>
+                </div>
+                <div class="accordion-item" id="question4">
+                  <a class="accordion-link" href="#question4">
+                    Создание бэк-энда приложения
+                    <ion-icon name="add-outline" class="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>Мы оказываем услуги по разработке бэк-энда приложений, помогаем создавать архитектуру и обеспечивать корректную работу всех функций вашего проекта. Наша компания специализируется на разработке бэк-энда на Node.js (Express.js).</p>
+                  </div>
+                </div>
+                <div class="accordion-item" id="question5">
+                  <a class="accordion-link" href="#question5">
+                    Интеграция с Exponea (CDXP платформа)
+                    <ion-icon name="add-outline" class="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>Мы осуществляем интеграцию сервисов с Exponea - платформой по автоматизации маркетинга и осуществлению глубокого анализа бизнеса. Данный инструмент позволит собирать данные из всех точек касания клиента с брендом, лучше понимать ваших покупателей и повышать их лояльность.</p>
+                  </div>
+                </div>
+                <div class="accordion-item" id="question6">
+                  <a class="accordion-link" href="#question6">
+                    Интеграция с платежными сервисами и сервисами доставки
+                    <ion-icon name="add-outline" class="add-outline"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-outline"></ion-icon>
+                  </a>
+                  <div class="answer">
+                    <p>Мы поможем сделать любую интеграцию, чтобы ваше взаимодействие с покупателем стало простым и удобным. Нас не остановит ни отсутствие правильного API и документации, ни трудности со специалистами на стороне интегрируемого сервиса.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+                                       <!-- Наша команда -->
+      <section class="out-team">
+        <div class="card-container">
+          <div class="card">
+            <div class="content">
+             <div class="imgBx"> <img src="../images/001.jpg" alt="person1"></div>
+                <div class="contentBx">
+              <h3>Эдуард<br> Мышкин<br><span>Backend разработчик</span></h3>
+               </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+             </li>
+             <li style="--i:3">
+               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+             </li>
+            </ul>
+          </div>
+           <div class="card">
+            <div class="content">
+             <div class="imgBx"> <img src="../images/002.jpg" alt="person1"></div>
+                <div class="contentBx">
+              <h3>Андрей <br> Питер <br><span>Тестировщик</span></h3>
+               </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+             </li>
+             <li style="--i:3">
+               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+             </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="content">
+             <div class="imgBx"> <img src="../images/004.jpg" alt="person1"></div>
+                <div class="contentBx">
+              <h3>Сергей <br> Мирный <br><span>Mobile Developer (Android/iOS)</span></h3>
+               </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+             </li>
+             <li style="--i:3">
+               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+             </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="content">
+             <div class="imgBx"> <img src="../images/003.jpg" alt="person1"></div>
+                <div class="contentBx">
+              <h3>Глеб <br> Соболев <br><span>Frontend-разработчик </span></h3>
+               </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+             </li>
+             <li style="--i:3">
+               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+             </li>
+            </ul>
+          </div>
+          
+          <div class="card">
+            <div class="content">
+             <div class="imgBx"> <img src="../images/005.jpg" alt="person1"></div>
+                <div class="contentBx">
+              <h3>Павел <br> Иванов<br><span>Программист Vue.js</span></h3>
+               </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+             </li>
+             <li style="--i:3">
+               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+             </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="content">
+             <div class="imgBx"> <img src="../images/006.jpg" alt="person1"></div>
+                <div class="contentBx">
+              <h3>Олег <br> Рыжиков <br><span>Программист 1С-Битрикс </span></h3>
+               </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+             </li>
+             <li style="--i:3">
+               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+             </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="content">
+             <div class="imgBx"> <img src="../images/007.jpg" alt="person1"></div>
+                <div class="contentBx">
+              <h3>Eлена <br> Мазурова <br><span> UX/UI Дизайнер</span></h3>
+               </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+             </li>
+             <li style="--i:3">
+               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+             </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="content">
+             <div class="imgBx"> <img src="../images/008.jpg" alt="person1"></div>
+                <div class="contentBx">
+              <h3>Александр <br> Вознесенский <br><span>Универсальный програмист  </span></h3>
+               </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+             </li>
+             <li style="--i:3">
+               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+             </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+     
+                                   <!-- Контакты и форма обратной связи -->
+   <!-- <section class="contact">                    
+       <div class="content">
+        <h2>Обратная связь</h2>
+        <p>Есть вопросы ? Пиши нам!</p>
+      </div>
+      <div class="container-contact">
+          <div class="contact-info">
+            <div class="box">
+              <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Адрес</h3>
+                <p>улица 50 лет БССР, <br>дом 7<br>офис 4, 10</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Телефон</h3>
+                <p>375299972101</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>dir@msa-it.ru</p>
+              </div>
+            </div>
+          </div>
+          <div class="contactForm">
+            <form action="">
+              <h2>Форма обратной связи</h2>
+              <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>ФИО</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Email</span>
+              </div>
+              <div class="inputBox">
+                <textarea required="required"></textarea>
+                <span>Текст сообщения....</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="" value="Отправить">
+              </div>
+            </form>
+          </div>
+      </div> 
+    </section> -->
+
+    <section class="contact">                    
+     <div class="container-contact">
+         <div class="contact-info">
+           <div class="box">
+             <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+             <div class="text">
+               <h3>Адрес</h3>
+               <p>улица 50 лет БССР, <br>дом 7<br>офис 4, 10</p>
+             </div>
+           </div>
+           <div class="box">
+             <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+             <div class="text">
+               <h3>Телефон</h3>
+               <p>375299972101</p>
+             </div>
+           </div>
+           <div class="box">
+             <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+             <div class="text">
+               <h3>Email</h3>
+               <p>dir@msa-it.ru</p>
+             </div>
+           </div>
+         </div>
+         <div class="contactForm">
+           <form action="">
+             <h2>Форма обратной связи</h2>
+             <div class="inputBox">
+               <input type="text" name="" required="required">
+               <span>ФИО</span>
+             </div>
+             <div class="inputBox">
+               <input type="text" name="" required="required">
+               <span>Email</span>
+             </div>
+             <div class="inputBox">
+               <textarea required="required"></textarea>
+               <span>Текст сообщения....</span>
+             </div>
+             <div class="inputBox">
+               <input type="submit" name="" value="Отправить">
+             </div>
+           </form>
+         </div>
+     </div> 
+   </section>
+
+
+
+      <footer class="footer">                           <!-- Подвал  -->
+        <div class="footer-content">
+          <p class="copyright">
+            Copyright &copy; 2021, dir@msa-it.ru - evgeniabelovagomel@gmail.com
+          </p>
+          <div class="social-list">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+      <a href="#" class="scroll-btn">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+      jQuery(document).ready(function(){
+  var typed = new Typed(".typed",{
+  strings: ["От проектирования до бизнес-анализа","Создание CRM-систем","Аутсорсинг, IT-разработки", "Свежие Вакансии"],
+  typeSpeed: 88,
+  backSpeed:48,
+  loop: true,
+  showCursor:false, 
+  startDelay:2000
+  });
+  });
+    </script>
+  </body>
+</html>
